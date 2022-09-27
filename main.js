@@ -18,7 +18,7 @@ function preload(){
 }
 
 function setup(){
-    canvas=createCanvas(600,500);
+    canvas=createCanvas(700,600);
     canvas.center();
 
     video=createCapture(VIDEO);
@@ -45,7 +45,7 @@ function gotPoses(results){
 }
 
 function draw(){
-    image(video,0,0,600,500);
+    image(video,0,0,700,600);
 }
 
 function play(){
